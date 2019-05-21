@@ -13,3 +13,19 @@ function logShout (text) {
 function logWhisper (text) {
   console.log(text.toLowerCase());
 }
+
+function sayHiToGrandma (text) {
+  if (text.toUpperCase() === text) {
+    return "YES INDEED!"
+    
+  }
+  else if ("I love you, Grandma." === text) {
+    return "I love you, too."
+  }
+  else {
+    return "I can't hear you!";
+  }
+  
+}
+
+
